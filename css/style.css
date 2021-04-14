@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: 'robotoregular';
+  src: url('roboto-regular-webfont.woff2') format('woff2'),
+       url('roboto-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+body {
+    font-family: 'robotoregular';
+    font-weight: bolder;
+}
+  
+  /* Make content area fill the entire browser window */
+  html,
+  .fullscreen {
+    display: flex;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  
+  /* Center the content in the browser window */
+  .container {
+    margin: auto;
+    text-align: center;
+  }
+  
+  .title, .title2, .p {
+    font-size: 3rem;
+    font-family: 'robotoregular';
+  }
+
+  li{
+    margin-bottom: 5px;
+  }
+
+  ol.a {
+    list-style-type: upper-roman;
+  }
