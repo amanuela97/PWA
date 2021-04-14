@@ -8,6 +8,7 @@ var filesToCache = [
   './js/main.js',
   './images/pwa.png',
   './favicon.ico',
+  './webfonts',
 ];
 
 /* Start the service worker and cache all of the app's content */
