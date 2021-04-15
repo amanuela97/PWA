@@ -15,28 +15,20 @@
   <meta name="msapplication-TileImage" content="images/hello-icon-144.png">
   <meta name="msapplication-TileColor" content="#FFFFFF">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-  body {
-    background-image: url('./images/pwa.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% 100%;
-  }
-  </style>
 <body class="fullscreen">
   <div class="container">
-    <h1 class="title">Hello World! <i class="fas fa-smile-wink"></i></h1>
-    <p>This is a PWA application</p>
-    <h1 class="title2">Key properties of PWA</h1>
-    <ol class="a">
-        <li>Service Workers</li>
-        <li>Add to home screen</li>
-        <li>Responsive layout</li>
-        <li>Browser independence</li>
-        <li>HTTPS</li>
-        <li>Fast first load</li>
-    </ol>
+    <h1 class="title">Hello World!</h1>
+    <form>
+      <input type="text" name="greeting" placeholder="type greeting">
+      <button type="submit">Send</button>
+    </form>
+    <div class="greetings">
+      <button id="refresh">Refresh</button>
+      <ul></ul>
+    </div>
   </div>
 </body>
+<script src="js/fetchGQL.js"></script>
+<script src="js/idb.js"></script>
 <script src="js/main.js"></script>
 </html>
